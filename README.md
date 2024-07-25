@@ -101,22 +101,7 @@ We will use a subset of the Google Landmarks Dataset v2 for training and evaluat
 
 - **Model for Transfer Learning**: `get_model_transfer_learning()` initializes a pretrained model, freezes its layers (disables gradient calculations), replaces the fully connected layer with one suitable for the current problem, and returns the modified model.
 
+## Project Completion Badge
 
-## Usage
+![Project Completion Badge](static_images/aws-tailored-p3.webp)
 
-1. Upload an image through the app interface.
-2. The app will process the image and return the top k most relevant landmarks.
-3. View the suggested tags and use them for organizing or sharing your photos.
-
-## Contributing
-
-We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Google Landmarks Dataset v2
-- TensorFlow / PyTorch
